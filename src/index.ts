@@ -4,3 +4,4 @@
  **/
 
 export { LockHolder } from './LockHolder';
+export { ADBObjectStore } from './ADBObjectStore';
