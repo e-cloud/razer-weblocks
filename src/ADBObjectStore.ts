@@ -22,6 +22,7 @@ function createDatabase(name: string, schema: DatabaseSchema) {
     console.error(
       "Your browser doesn't support a stable version of IndexedDB. Such and such feature will not be available.",
     );
+    return;
   }
 
   return new Promise((resolve, reject) => {
